@@ -180,7 +180,7 @@ void setup() {
   }
   
   // Set the advertised device name
-  BLE.setLocalName("IMUCleanData");
+  BLE.setLocalName("IMUCleanDataLIU");
   // Set the UUID for the service we will advertise
   BLE.setAdvertisedService(imuService);
   
